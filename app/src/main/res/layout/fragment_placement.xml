@@ -1,0 +1,124 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sriram.singleimage2.Placement">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:padding="10dp"
+        android:layout_height="match_parent"
+        android:id="@+id/totalstudent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtstudent"
+            android:text="Total Students::"
+            android:paddingLeft="200dp"
+            android:textSize="16dp"
+            android:textColor="@color/red"
+            android:layout_marginRight="2dp"
+
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtstudentno"
+            android:text="0"
+            android:paddingLeft="2dp"
+            android:textSize="16dp"
+           android:textColor="@color/bluePrimaryDark"
+            android:layout_marginRight="2dp"
+
+            android:gravity="center"
+            />
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:padding="10dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:id="@+id/lin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtimage"
+            android:text="Image"
+            android:paddingLeft="2dp"
+            android:textSize="20dp"
+            android:textColor="@color/red"
+            android:layout_marginRight="2dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtfname"
+            android:gravity="center"
+            android:paddingLeft="12dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/red"
+            android:textSize="20dp"
+            android:text="Student name"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtyear"
+            android:gravity="center"
+            android:paddingLeft="50dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/red"
+            android:text="Year"
+            android:textStyle="bold"
+            />
+       <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:text="Chat"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            />-->
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/lin"
+            >
+
+            <ListView
+                android:layout_width="match_parent"
+                android:id="@+id/lvstudent"
+                android:layout_height="match_parent"
+                ></ListView>
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</FrameLayout>

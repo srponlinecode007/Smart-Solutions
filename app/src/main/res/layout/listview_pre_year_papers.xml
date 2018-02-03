@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:gravity="left"
+    android:padding="5dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSName"
+        android:text="SubName"
+        android:paddingLeft="2dp"
+        android:textSize="16dp"
+        android:layout_marginRight="2dp"
+
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSemester"
+        android:gravity="center"
+        android:paddingLeft="18dp"
+        android:layout_marginRight ="5dp"
+        android:textSize="16dp"
+        android:text="Sem"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSemtype"
+        android:gravity="center"
+        android:paddingLeft="18dp"
+        android:layout_marginRight="5dp"
+        android:textSize="16dp"
+        android:text="SemType"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtyear"
+        android:gravity="center"
+        android:paddingLeft="18dp"
+        android:layout_marginRight="5dp"
+        android:textSize="16dp"
+        android:text="Year"
+        />
+   <ImageView
+       android:layout_width="41dp"
+       android:layout_height="29dp"
+       android:src="@mipmap/download1"
+       android:cropToPadding="true"
+       android:maxHeight="10dp"
+       android:id="@+id/download"
+       />
+</LinearLayout>

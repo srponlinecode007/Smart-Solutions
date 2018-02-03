@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/customDialogButtonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/customDialogImage" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/customDialogImage"
+        android:layout_height="400dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/customDialogPre"
+        android:layout_below="@+id/customDialogImage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Ok"
+        android:id="@+id/customDialogButtonOk"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customDialogImage"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/customDialogButtonDwn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Download"
+        android:layout_below="@+id/customDialogButtonNext"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

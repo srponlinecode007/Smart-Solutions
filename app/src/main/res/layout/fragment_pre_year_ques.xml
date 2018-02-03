@@ -1,0 +1,131 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sriram.singleimage2.PreYearQues"
+    >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       android:gravity="left"
+       android:padding="10dp"
+       android:layout_height="match_parent"
+       android:id="@+id/totalstudent">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/txtstudent"
+          android:text="Total Ques. Paper::"
+          android:paddingLeft="200dp"
+          android:textSize="16dp"
+          android:textColor="@color/red"
+
+
+          android:gravity="center"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/txtstudentno"
+          android:text="0"
+          android:paddingLeft="2dp"
+          android:textSize="16dp"
+          android:textColor="@color/bluePrimaryDark"
+          android:layout_marginRight="5dp"
+
+          android:gravity="center"
+          />
+
+   </LinearLayout>
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       android:gravity="left"
+       android:padding="10dp"
+       android:layout_height="match_parent"
+       android:layout_marginTop="30dp"
+       android:id="@+id/lin">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/txtSName"
+          android:text="Subject"
+          android:paddingLeft="2dp"
+          android:textSize="19dp"
+          android:textColor="@color/red"
+          android:layout_marginRight="2dp"
+          android:textStyle="bold"
+          android:gravity="center"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/txtSemester"
+          android:gravity="center"
+          android:paddingLeft="20dp"
+          android:layout_marginRight="5dp"
+          android:textColor="@color/red"
+          android:textSize="19dp"
+          android:textStyle="bold"
+          android:text="Sem"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/txtSemtype"
+          android:gravity="center"
+          android:paddingLeft="5dp"
+          android:layout_marginRight="5dp"
+          android:textSize="16dp"
+          android:textColor="@color/red"
+          android:text="SemType"
+          android:textStyle="bold"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/txtyear"
+          android:gravity="center"
+          android:paddingLeft="5dp"
+          android:layout_marginRight="5dp"
+          android:textSize="19dp"
+          android:textColor="@color/red"
+          android:text="Year"
+          android:textStyle="bold"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="5dp"
+          android:text="Download"
+          android:textSize="16dp"
+          android:textColor="@color/red"
+          android:textStyle="bold"
+          />
+   </LinearLayout>
+   <ScrollView
+       android:layout_width="match_parent"
+       android:fillViewport="true"
+       android:layout_height="match_parent"
+         android:layout_marginTop="65dp"
+       >
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          >
+
+         <ListView
+             android:layout_width="match_parent"
+             android:id="@+id/lstPrePapDetails"
+             android:layout_height="match_parent"
+            ></ListView>
+      </RelativeLayout>
+   </ScrollView>
+
+
+</FrameLayout>

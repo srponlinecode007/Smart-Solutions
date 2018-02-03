@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtupload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="uploaded by:- "
+                android:textSize="16dp"
+                android:textStyle="bold"
+                />
+
+    <TextView
+    android:id="@+id/txtfname"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:text="FirstName,"
+        android:layout_toRightOf="@+id/txtupload"
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        />
+
+
+    <TextView
+        android:id="@+id/txtdatetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DateTime"
+        android:textSize="13dp"
+        android:layout_marginLeft="175dp"
+        android:layout_alignTop="@+id/txtyear"
+        android:layout_marginTop="20dp"
+        />
+
+            <TextView
+                android:id="@+id/txtyear1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Year-"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/txtfname"
+                />
+
+    <TextView
+        android:id="@+id/txtyear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Year,"
+        android:textSize="15dp"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@+id/txtyear1"
+        />
+    <TextView
+        android:id="@+id/txtMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtfname"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:text="No text"/>
+
+        />
+    <TextView
+        android:id="@+id/txtviewmore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Images"
+        android:layout_below="@+id/txtMsg"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="65dp"
+        />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

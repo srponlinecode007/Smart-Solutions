@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtdate"
+        android:text="Date"
+        android:paddingLeft="20dp"
+        android:textSize="16dp"
+        android:layout_marginRight="2dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtevent"
+        android:text="Events"
+        android:paddingLeft="0dp"
+        android:textSize="16dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center"
+        />
+
+</LinearLayout>

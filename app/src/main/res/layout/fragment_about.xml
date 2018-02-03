@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sriram.singleimage2.About"
+    android:background="@drawable/e">
+
+    <!-- TODO: Update blank fragment layout -->
+
+   <TextView
+       android:layout_width="300dp"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="0dp"
+       android:layout_margin="50dp"
+       android:gravity="center"
+       android:textColor="@color/white"
+       android:textStyle="italic"
+       android:text="Hello friends, the main objective of this app is that it connects all students where you can share the information , get previous year questions and can get information about upcoming events of this college as well.If you have any suggestion regarding this app, please suggest me at pandeysriram888@gmail.com,  ThankYou"
+       android:textSize="22dp"/>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:id="@+id/hello0"
+        android:gravity="right"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="----Sriram Pandey"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:id="@+id/hello1"
+        android:gravity="right"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="MCA 2nd Year"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:id="@+id/hello2"
+        android:gravity="right"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="MNNIT ALLAHABAD"
+        android:textSize="20dp"/>
+</FrameLayout>

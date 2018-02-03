@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sriram.singleimage2.Upload">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"><!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="280dp"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/tvItemSelected" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:weightSum="1">>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="260dp"
+            android:textSize="30dp"
+            android:id="@+id/editText"
+            android:layout_weight="1"
+            android:layout_marginLeft="45dp"
+            android:background="@color/white"
+           android:gravity="top"
+            android:layout_marginTop="20dp"/>
+
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="36dp"
+            android:text="Upload"
+            android:layout_below="@+id/editText"
+            android:id="@+id/btnupload"
+            android:layout_marginStart="36dp"
+            android:layout_alignBaseline="@+id/btnphotofile"
+            android:layout_alignBottom="@+id/btnphotofile"
+            android:layout_toRightOf="@+id/btnphotofile"
+            android:layout_toEndOf="@+id/btnphotofile" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginLeft="80dp"
+            android:text="Photo"
+            android:layout_below="@+id/editText"
+            android:id="@+id/btnphotofile"
+            android:layout_marginStart="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <GridView
+            android:id="@+id/gv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:numColumns="auto_fit"
+            android:verticalSpacing="10dp"
+            android:horizontalSpacing="10dp"
+            android:columnWidth="100dp"
+            android:stretchMode="columnWidth"
+            android:gravity="center"
+            android:layout_below="@+id/btnphotofile"
+            android:layout_marginTop="20dp"
+
+
+            />
+    </RelativeLayout>
+</FrameLayout>
+</RelativeLayout>
+
